@@ -1,0 +1,6 @@
+# This prevent unncessary files from going into the docker build context. 
+__pycache__/
+*.pyc 
+.venv/
+.git/
+.ipynb_checkpoints/
