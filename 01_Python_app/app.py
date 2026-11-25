@@ -2,6 +2,7 @@ import pandas as pd
 
 
 def main():
+    print("running with docker bind mount!")
     df = pd.read_csv('data.csv')
     print("\n === Dataset === ")
     print(df)
@@ -21,6 +22,9 @@ def main():
 
     print("\n Application Executed Successfully !")
 
+    print("edited the file..")
+
+    print("little change to app.py")
 
 if __name__ == "__main__":
     main()
