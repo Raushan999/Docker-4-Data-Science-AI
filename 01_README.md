@@ -78,3 +78,6 @@ Docker Container
 4. A container can stop after its main application process finishes.
 5. Removing a container does not automatically remove its image.
 
+# How is it different from the virtual machines. 
+1. For VMs we allocate portion of our CPU, Harddisk, RAM etc..
+2. IF they are not used /ideal or they crashes, the resources are just getting wasted; that could have been used by other applications. 
